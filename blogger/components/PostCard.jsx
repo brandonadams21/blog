@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { grpahCMSImageLoader } from '../utils';
 
 const PostCard = ({ post }) => (
-  <div className="bg-black shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8">
+  <div className="bg-black shadow-lg rounded-lg lg:p-8 pb-12 mb-8" style={{marginTop: "20px"}}>
     {/* <div className="relative shadow-md inline-block w-full h-60 lg:h-80 mb-6">
       <Image
         unoptimized

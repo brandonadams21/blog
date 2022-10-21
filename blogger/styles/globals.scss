@@ -25,6 +25,7 @@ body {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
   }
 }
 
@@ -68,4 +69,8 @@ p {
 * {
   box-sizing: border-box;
   color: white;
+}
+
+.Comments {
+  overflow-x: auto;
 }
